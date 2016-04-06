@@ -31,12 +31,14 @@ public class Chompie : Player {
 
     protected override void Ability1()
     {
+        base.Ability1();
         anim.SetBool("Ability1", true);
         StartCoroutine(MouthAttack());
     }
 
     protected override void Ability2()
     {
+        base.Ability2();
         anim.SetBool("Ability2", true);
         StartCoroutine(ChargeBreath());
     }
@@ -45,6 +47,7 @@ public class Chompie : Player {
     {
         if (!ability3_CD)
         {
+            base.Ability3();
             anim.SetBool("Ability3", true);
             StartCoroutine(BirthEgg());
         }

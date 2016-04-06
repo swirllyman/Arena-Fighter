@@ -21,7 +21,7 @@ public class AttackingObject : MonoBehaviour {
 
     void OnTriggerEnter(Collider c) 
 	{
-        if (c.tag == "Enemy" && c.transform != player.transform) 
+        if (c.tag == "Enemy") 
 		{
 			c.transform.GetComponent<Player>().TakeDamage(50);
         }

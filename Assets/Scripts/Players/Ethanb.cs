@@ -6,7 +6,6 @@ public class Ethanb : Player
 
     public float timer;
     public float invisTimer = 5.0f;
-    bool invis = false;
 
     Renderer myBody;
 
@@ -28,33 +27,41 @@ public class Ethanb : Player
 
         if (invis)
         {
-            invisTimer -= Time.deltaTime;
+            myBody.enabled = false;
 
-            if(invisTimer <= 0.0f)
+            if (photonView.isMine)
             {
-                invis = false;
-                myBody.enabled = true;
-            }
+                timer -= Time.deltaTime;
 
+                if (timer <= 0.0f)
+                {
+                    invis = false;
+                }
+            }
+        }
+        else
+        {
+            myBody.enabled = true;
         }
     }
 
     protected override void Ability1() 
 	{
+        base.Ability1();
 		attackingObject1.GetComponent<Light> ().enabled = !attackingObject1.GetComponent<Light> ().enabled;
     }
 
     protected override void Ability2()
     {
+        base.Ability2();
 		GameObject projectile_object = PhotonNetwork.Instantiate ("Ethan_Projectile", attackingObject2.position + mesh.forward, mesh.rotation, 0);
     }
 
     protected override void Ability3()
     {
+        base.Ability3();
         timer = invisTimer;
         invis = true;
-
-        myBody.enabled = false;
 
     }
 

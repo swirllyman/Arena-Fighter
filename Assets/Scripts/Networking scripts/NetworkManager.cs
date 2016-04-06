@@ -15,6 +15,8 @@ public class NetworkManager : MonoBehaviour
     public Button ethanButton;
     public Button chompieButton;
 
+    public GameObject abilityPanel;
+
     void Start()
 	{
         //if (character_To_Play_As == "")
@@ -81,6 +83,8 @@ public class NetworkManager : MonoBehaviour
         
         player.transform.GetComponentInChildren<CameraRotate>().enabled = true;
         player.transform.GetComponentInChildren<Camera>().enabled = true;
+
+        abilityPanel.SetActive(true);
     }
 
 

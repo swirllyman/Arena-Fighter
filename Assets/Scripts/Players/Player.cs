@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public enum PlayerState { run, idle, attack1, attack2, attack3, dead, takeDamage }
 
@@ -43,6 +44,23 @@ public abstract class Player : Photon.MonoBehaviour {
 	float death_timer = 5.0f;
 	float active_timer = 0.0f;
 
+    public float ability1Max;
+    public float ability2Max;
+    public float ability3Max;
+
+    float ability1Timer;
+    float ability2Timer;
+    float ability3Timer;
+
+    public GameObject abilityPanel;
+    Image ability1;
+    Image ability2;
+    Image ability3;
+
+    public bool invis = false;
+
+
+
     protected virtual void Start() 
 	{
 		PV = GetComponent<PhotonView> ();
@@ -52,6 +70,20 @@ public abstract class Player : Photon.MonoBehaviour {
 		anim.SetBool ("Moving", false);
 		mesh = GetComponentInChildren<Renderer> ().transform;
         StopMovement();
+
+        if (PV.isMine)
+        {
+            abilityPanel = GameObject.Find("Canvas/Abilities");
+            ability1 = abilityPanel.transform.FindChild("Ability1").GetComponent<Image>();
+            ability2 = abilityPanel.transform.FindChild("Ability2").GetComponent<Image>();
+            ability3 = abilityPanel.transform.FindChild("Ability3").GetComponent<Image>();
+
+            ability1.fillAmount = 0;
+            ability2.fillAmount = 0;
+            ability3.fillAmount = 0;
+
+        }
+
     }
 
 
@@ -113,6 +145,12 @@ public abstract class Player : Photon.MonoBehaviour {
                     currentState = PlayerState.attack3;
                     Ability3();
                 }
+
+
+                CoolDowns();
+
+
+
             }
             else
             {
@@ -127,6 +165,30 @@ public abstract class Player : Photon.MonoBehaviour {
         }
     }
 
+
+    void CoolDowns()
+    {
+        if(ability1Timer > 0.0f)
+        {
+            ability1Timer -= Time.deltaTime;
+            ability1.fillAmount = ability1Timer / ability1Max;
+        }
+
+        if (ability2Timer > 0.0f)
+        {
+            ability2Timer -= Time.deltaTime;
+            ability2.fillAmount = ability2Timer / ability2Max;
+        }
+
+
+        if (ability3Timer > 0.0f)
+        {
+            ability3Timer -= Time.deltaTime;
+            ability3.fillAmount = ability3Timer / ability3Max;
+        }
+
+
+    }
 
     bool AbilityInProgress() {
         return anim.GetCurrentAnimatorStateInfo(1).IsName("Ability1") || anim.GetCurrentAnimatorStateInfo(1).IsName("Ability2") || anim.GetCurrentAnimatorStateInfo(1).IsName("Ability3");
@@ -289,11 +351,20 @@ public abstract class Player : Photon.MonoBehaviour {
         justJumped = false;
     }
 
-    protected abstract void Ability1();
+    protected virtual void Ability1()
+    {
+        ability1Timer = ability1Max;
+    }
 
-    protected abstract void Ability2();
+    protected virtual void Ability2()
+    {
+        ability2Timer = ability2Max;
+    }
 
-    protected abstract void Ability3();
+    protected virtual void Ability3()
+    {
+        ability3Timer = ability3Max;
+    }
 
 	protected Transform Get_Child(string child_name)
 	{
