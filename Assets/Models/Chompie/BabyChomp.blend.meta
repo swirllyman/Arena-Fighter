@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: 3f5ede933efc1ec48b301410ec44776b
+timeCreated: 1451286235
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: //RootNode
+    100004: Bone_001_L
+    100006: Bone_001_L_001
+    100008: Bone_001_L_002
+    100010: Bone_001_L_003
+    100012: Bone_001_L_004
+    100014: Bone_001_L_005
+    100016: Bone_001_R
+    100018: Bone_001_R_001
+    100020: Bone_001_R_002
+    100022: Bone_001_R_003
+    100024: Bone_001_R_004
+    100026: Bone_001_R_005
+    100028: Bone_006
+    100030: Bone_007
+    100032: Bone_008
+    100034: Bone_009
+    100036: Bone_L
+    100038: Bone_L_001
+    100040: Bone_L_002
+    100042: Bone_L_003
+    100044: Bone_R
+    100046: Bone_R_001
+    100048: Bone_R_002
+    100050: Bone_R_003
+    100052: Chest
+    100054: Cube
+    100056: Head
+    100058: Middle
+    100060: Mouth_Lower
+    100062: Mouth_Upper
+    100064: Neck
+    100066: Waist
+    400000: Armature
+    400002: //RootNode
+    400004: Bone_001_L
+    400006: Bone_001_L_001
+    400008: Bone_001_L_002
+    400010: Bone_001_L_003
+    400012: Bone_001_L_004
+    400014: Bone_001_L_005
+    400016: Bone_001_R
+    400018: Bone_001_R_001
+    400020: Bone_001_R_002
+    400022: Bone_001_R_003
+    400024: Bone_001_R_004
+    400026: Bone_001_R_005
+    400028: Bone_006
+    400030: Bone_007
+    400032: Bone_008
+    400034: Bone_009
+    400036: Bone_L
+    400038: Bone_L_001
+    400040: Bone_L_002
+    400042: Bone_L_003
+    400044: Bone_R
+    400046: Bone_R_001
+    400048: Bone_R_002
+    400050: Bone_R_003
+    400052: Chest
+    400054: Cube
+    400056: Head
+    400058: Middle
+    400060: Mouth_Lower
+    400062: Mouth_Upper
+    400064: Neck
+    400066: Waist
+    4300000: Cube
+    7400000: Baby_Chomp_Run
+    7400002: Baby_Chomp_Fetile_Position
+    7400004: Baby_Chomp_Spawn
+    7400006: Baby_Chomp_Idle
+    7400008: Baby_Chomp_Attack
+    7400010: Baby_Chomp_Death
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Baby_Chomp_Fetile_Position
+      takeName: Default Take
+      firstFrame: 304
+      lastFrame: 324
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_006
+        weight: 1
+      - path: Armature/Bone_006/Bone_007
+        weight: 1
+      - path: Armature/Bone_006/Bone_007/Bone_008
+        weight: 1
+      - path: Armature/Bone_006/Bone_007/Bone_008/Bone_009
+        weight: 1
+      - path: Armature/Bone_L
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001/Bone_L_002
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001/Bone_L_002/Bone_L_003
+        weight: 1
+      - path: Armature/Bone_R
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001/Bone_R_002
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001/Bone_R_002/Bone_R_003
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Middle
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_003
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_004
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_005
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_003
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_004
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_005
+        weight: 1
+      - path: Armature/Waist/Middle/Chest
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Mouth_Lower
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Mouth_Upper
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Baby_Chomp_Spawn
+      takeName: ArmatureAction
+      firstFrame: 20
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_006
+        weight: 1
+      - path: Armature/Bone_006/Bone_007
+        weight: 1
+      - path: Armature/Bone_006/Bone_007/Bone_008
+        weight: 1
+      - path: Armature/Bone_006/Bone_007/Bone_008/Bone_009
+        weight: 1
+      - path: Armature/Bone_L
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001/Bone_L_002
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001/Bone_L_002/Bone_L_003
+        weight: 1
+      - path: Armature/Bone_R
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001/Bone_R_002
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001/Bone_R_002/Bone_R_003
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Middle
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_003
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_004
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_005
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_003
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_004
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_005
+        weight: 1
+      - path: Armature/Waist/Middle/Chest
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Mouth_Lower
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Mouth_Upper
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Baby_Chomp_Idle
+      takeName: ArmatureAction
+      firstFrame: 150
+      lastFrame: 229
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_006
+        weight: 1
+      - path: Armature/Bone_006/Bone_007
+        weight: 1
+      - path: Armature/Bone_006/Bone_007/Bone_008
+        weight: 1
+      - path: Armature/Bone_006/Bone_007/Bone_008/Bone_009
+        weight: 1
+      - path: Armature/Bone_L
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001/Bone_L_002
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001/Bone_L_002/Bone_L_003
+        weight: 1
+      - path: Armature/Bone_R
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001/Bone_R_002
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001/Bone_R_002/Bone_R_003
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Middle
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_003
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_004
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_005
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_003
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_004
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_005
+        weight: 1
+      - path: Armature/Waist/Middle/Chest
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Mouth_Lower
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Mouth_Upper
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Baby_Chomp_Run
+      takeName: ArmatureAction
+      firstFrame: 305
+      lastFrame: 325
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_006
+        weight: 1
+      - path: Armature/Bone_006/Bone_007
+        weight: 1
+      - path: Armature/Bone_006/Bone_007/Bone_008
+        weight: 1
+      - path: Armature/Bone_006/Bone_007/Bone_008/Bone_009
+        weight: 1
+      - path: Armature/Bone_L
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001/Bone_L_002
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001/Bone_L_002/Bone_L_003
+        weight: 1
+      - path: Armature/Bone_R
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001/Bone_R_002
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001/Bone_R_002/Bone_R_003
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Middle
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_003
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_004
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_005
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_003
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_004
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_005
+        weight: 1
+      - path: Armature/Waist/Middle/Chest
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Mouth_Lower
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Mouth_Upper
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Baby_Chomp_Attack
+      takeName: ArmatureAction
+      firstFrame: 380
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_006
+        weight: 1
+      - path: Armature/Bone_006/Bone_007
+        weight: 1
+      - path: Armature/Bone_006/Bone_007/Bone_008
+        weight: 1
+      - path: Armature/Bone_006/Bone_007/Bone_008/Bone_009
+        weight: 1
+      - path: Armature/Bone_L
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001/Bone_L_002
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001/Bone_L_002/Bone_L_003
+        weight: 1
+      - path: Armature/Bone_R
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001/Bone_R_002
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001/Bone_R_002/Bone_R_003
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Middle
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_003
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_004
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_005
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_003
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_004
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_005
+        weight: 1
+      - path: Armature/Waist/Middle/Chest
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Mouth_Lower
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Mouth_Upper
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Baby_Chomp_Death
+      takeName: ArmatureAction
+      firstFrame: 430
+      lastFrame: 445
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_006
+        weight: 1
+      - path: Armature/Bone_006/Bone_007
+        weight: 1
+      - path: Armature/Bone_006/Bone_007/Bone_008
+        weight: 1
+      - path: Armature/Bone_006/Bone_007/Bone_008/Bone_009
+        weight: 1
+      - path: Armature/Bone_L
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001/Bone_L_002
+        weight: 1
+      - path: Armature/Bone_L/Bone_L_001/Bone_L_002/Bone_L_003
+        weight: 1
+      - path: Armature/Bone_R
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001/Bone_R_002
+        weight: 1
+      - path: Armature/Bone_R/Bone_R_001/Bone_R_002/Bone_R_003
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Middle
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_003
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_004
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_L/Bone_001_L_001/Bone_001_L_002/Bone_001_L_005
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_003
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_004
+        weight: 1
+      - path: Armature/Waist/Middle/Bone_001_R/Bone_001_R_001/Bone_001_R_002/Bone_001_R_005
+        weight: 1
+      - path: Armature/Waist/Middle/Chest
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Mouth_Lower
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Mouth_Upper
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

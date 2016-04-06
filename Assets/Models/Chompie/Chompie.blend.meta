@@ -1,0 +1,1463 @@
+fileFormatVersion: 2
+guid: 7d87e9ae15a8f6347a6cb7e1f0ab5fa9
+timeCreated: 1450776149
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: ArmL
+    100004: ArmR
+    100006: Belly
+    100008: Chest
+    100010: //RootNode
+    100012: Cube
+    100014: FingerL1
+    100016: FingerL2
+    100018: FingerL3
+    100020: FingerL4
+    100022: FingerR1
+    100024: FingerR2
+    100026: FingerR3
+    100028: FingerR4
+    100030: FootL
+    100032: FootR
+    100034: HandL
+    100036: HandR
+    100038: Head
+    100040: Jaw
+    100042: Jaw2
+    100044: Middle
+    100046: Neck
+    100048: ShinL
+    100050: ShinR
+    100052: ShoulderL
+    100054: ShoulderR
+    100056: Tail
+    100058: Tail1
+    100060: Tail2
+    100062: Tail3
+    100064: Tail4
+    100066: ThighL
+    100068: ThighR
+    100070: Upper_Mouth
+    100072: Waist
+    100074: WingL
+    100076: WingL1
+    100078: WingL10
+    100080: WingL11
+    100082: WingL12
+    100084: WingL13
+    100086: WingL14
+    100088: WingL15
+    100090: WingL16
+    100092: WingL17
+    100094: WingL18
+    100096: WingL2
+    100098: WingL3
+    100100: WingL4
+    100102: WingL5
+    100104: WingL6
+    100106: WingL7
+    100108: WingL8
+    100110: WingL9
+    100112: WingR
+    100114: WingR1
+    100116: WingR10
+    100118: WingR11
+    100120: WingR12
+    100122: WingR13
+    100124: WingR14
+    100126: WingR15
+    100128: WingR16
+    100130: WingR17
+    100132: WingR18
+    100134: WingR2
+    100136: WingR3
+    100138: WingR4
+    100140: WingR5
+    100142: WingR6
+    100144: WingR7
+    100146: WingR8
+    100148: WingR9
+    400000: Armature
+    400002: ArmL
+    400004: ArmR
+    400006: Belly
+    400008: Chest
+    400010: //RootNode
+    400012: Cube
+    400014: FingerL1
+    400016: FingerL2
+    400018: FingerL3
+    400020: FingerL4
+    400022: FingerR1
+    400024: FingerR2
+    400026: FingerR3
+    400028: FingerR4
+    400030: FootL
+    400032: FootR
+    400034: HandL
+    400036: HandR
+    400038: Head
+    400040: Jaw
+    400042: Jaw2
+    400044: Middle
+    400046: Neck
+    400048: ShinL
+    400050: ShinR
+    400052: ShoulderL
+    400054: ShoulderR
+    400056: Tail
+    400058: Tail1
+    400060: Tail2
+    400062: Tail3
+    400064: Tail4
+    400066: ThighL
+    400068: ThighR
+    400070: Upper_Mouth
+    400072: Waist
+    400074: WingL
+    400076: WingL1
+    400078: WingL10
+    400080: WingL11
+    400082: WingL12
+    400084: WingL13
+    400086: WingL14
+    400088: WingL15
+    400090: WingL16
+    400092: WingL17
+    400094: WingL18
+    400096: WingL2
+    400098: WingL3
+    400100: WingL4
+    400102: WingL5
+    400104: WingL6
+    400106: WingL7
+    400108: WingL8
+    400110: WingL9
+    400112: WingR
+    400114: WingR1
+    400116: WingR10
+    400118: WingR11
+    400120: WingR12
+    400122: WingR13
+    400124: WingR14
+    400126: WingR15
+    400128: WingR16
+    400130: WingR17
+    400132: WingR18
+    400134: WingR2
+    400136: WingR3
+    400138: WingR4
+    400140: WingR5
+    400142: WingR6
+    400144: WingR7
+    400146: WingR8
+    400148: WingR9
+    4300000: Cube
+    7400000: Chompie_Idle
+    7400002: Chompie_Run
+    7400004: Chompie_Jump
+    7400006: Chompie_Ability_1
+    7400008: Chompie_Ability_2
+    7400010: Chompie_Ability_3
+    7400012: Chompie_Death
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Chompie_Idle
+      takeName: ArmatureAction
+      firstFrame: 40
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Belly
+        weight: 1
+      - path: Armature/ThighL
+        weight: 1
+      - path: Armature/ThighL/ShinL
+        weight: 1
+      - path: Armature/ThighL/ShinL/FootL
+        weight: 1
+      - path: Armature/ThighR
+        weight: 1
+      - path: Armature/ThighR/ShinR
+        weight: 1
+      - path: Armature/ThighR/ShinR/FootR
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Middle
+        weight: 1
+      - path: Armature/Waist/Middle/Chest
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Jaw/Jaw2
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Upper_Mouth
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL1
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL2
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL3
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL4
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR1
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR2
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR3
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR4
+        weight: 1
+      - path: Armature/Waist/Middle/WingL
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4/WingL5
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4/WingL5/WingL6
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10/WingL11
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10/WingL11/WingL12
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16/WingL17
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16/WingL17/WingL18
+        weight: 1
+      - path: Armature/Waist/Middle/WingR
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4/WingR5
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4/WingR5/WingR6
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10/WingR11
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10/WingR11/WingR12
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16/WingR17
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16/WingR17/WingR18
+        weight: 1
+      - path: Armature/Waist/Tail
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Chompie_Run
+      takeName: ArmatureAction
+      firstFrame: 160
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Belly
+        weight: 1
+      - path: Armature/ThighL
+        weight: 1
+      - path: Armature/ThighL/ShinL
+        weight: 1
+      - path: Armature/ThighL/ShinL/FootL
+        weight: 1
+      - path: Armature/ThighR
+        weight: 1
+      - path: Armature/ThighR/ShinR
+        weight: 1
+      - path: Armature/ThighR/ShinR/FootR
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Middle
+        weight: 1
+      - path: Armature/Waist/Middle/Chest
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Jaw/Jaw2
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Upper_Mouth
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL1
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL2
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL3
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL4
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR1
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR2
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR3
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR4
+        weight: 1
+      - path: Armature/Waist/Middle/WingL
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4/WingL5
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4/WingL5/WingL6
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10/WingL11
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10/WingL11/WingL12
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16/WingL17
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16/WingL17/WingL18
+        weight: 1
+      - path: Armature/Waist/Middle/WingR
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4/WingR5
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4/WingR5/WingR6
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10/WingR11
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10/WingR11/WingR12
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16/WingR17
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16/WingR17/WingR18
+        weight: 1
+      - path: Armature/Waist/Tail
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Chompie_Jump
+      takeName: ArmatureAction
+      firstFrame: 230
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Belly
+        weight: 1
+      - path: Armature/ThighL
+        weight: 1
+      - path: Armature/ThighL/ShinL
+        weight: 1
+      - path: Armature/ThighL/ShinL/FootL
+        weight: 1
+      - path: Armature/ThighR
+        weight: 1
+      - path: Armature/ThighR/ShinR
+        weight: 1
+      - path: Armature/ThighR/ShinR/FootR
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Middle
+        weight: 1
+      - path: Armature/Waist/Middle/Chest
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Jaw/Jaw2
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Upper_Mouth
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL1
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL2
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL3
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL4
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR1
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR2
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR3
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR4
+        weight: 1
+      - path: Armature/Waist/Middle/WingL
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4/WingL5
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4/WingL5/WingL6
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10/WingL11
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10/WingL11/WingL12
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16/WingL17
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16/WingL17/WingL18
+        weight: 1
+      - path: Armature/Waist/Middle/WingR
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4/WingR5
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4/WingR5/WingR6
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10/WingR11
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10/WingR11/WingR12
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16/WingR17
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16/WingR17/WingR18
+        weight: 1
+      - path: Armature/Waist/Tail
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Chompie_Ability_1
+      takeName: ArmatureAction
+      firstFrame: 280
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Belly
+        weight: 1
+      - path: Armature/ThighL
+        weight: 1
+      - path: Armature/ThighL/ShinL
+        weight: 1
+      - path: Armature/ThighL/ShinL/FootL
+        weight: 1
+      - path: Armature/ThighR
+        weight: 1
+      - path: Armature/ThighR/ShinR
+        weight: 1
+      - path: Armature/ThighR/ShinR/FootR
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Middle
+        weight: 1
+      - path: Armature/Waist/Middle/Chest
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Jaw/Jaw2
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Upper_Mouth
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL1
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL2
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL3
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL4
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR1
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR2
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR3
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR4
+        weight: 1
+      - path: Armature/Waist/Middle/WingL
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4/WingL5
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4/WingL5/WingL6
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10/WingL11
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10/WingL11/WingL12
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16/WingL17
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16/WingL17/WingL18
+        weight: 1
+      - path: Armature/Waist/Middle/WingR
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4/WingR5
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4/WingR5/WingR6
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10/WingR11
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10/WingR11/WingR12
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16/WingR17
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16/WingR17/WingR18
+        weight: 1
+      - path: Armature/Waist/Tail
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Chompie_Ability_2
+      takeName: ArmatureAction
+      firstFrame: 320
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Belly
+        weight: 1
+      - path: Armature/ThighL
+        weight: 1
+      - path: Armature/ThighL/ShinL
+        weight: 1
+      - path: Armature/ThighL/ShinL/FootL
+        weight: 1
+      - path: Armature/ThighR
+        weight: 1
+      - path: Armature/ThighR/ShinR
+        weight: 1
+      - path: Armature/ThighR/ShinR/FootR
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Middle
+        weight: 1
+      - path: Armature/Waist/Middle/Chest
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Jaw/Jaw2
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Upper_Mouth
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL1
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL2
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL3
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL4
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR1
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR2
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR3
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR4
+        weight: 1
+      - path: Armature/Waist/Middle/WingL
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4/WingL5
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4/WingL5/WingL6
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10/WingL11
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10/WingL11/WingL12
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16/WingL17
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16/WingL17/WingL18
+        weight: 1
+      - path: Armature/Waist/Middle/WingR
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4/WingR5
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4/WingR5/WingR6
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10/WingR11
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10/WingR11/WingR12
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16/WingR17
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16/WingR17/WingR18
+        weight: 1
+      - path: Armature/Waist/Tail
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Chompie_Ability_3
+      takeName: ArmatureAction
+      firstFrame: 440
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Belly
+        weight: 1
+      - path: Armature/ThighL
+        weight: 1
+      - path: Armature/ThighL/ShinL
+        weight: 1
+      - path: Armature/ThighL/ShinL/FootL
+        weight: 1
+      - path: Armature/ThighR
+        weight: 1
+      - path: Armature/ThighR/ShinR
+        weight: 1
+      - path: Armature/ThighR/ShinR/FootR
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Middle
+        weight: 1
+      - path: Armature/Waist/Middle/Chest
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Jaw/Jaw2
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Upper_Mouth
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL1
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL2
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL3
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL4
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR1
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR2
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR3
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR4
+        weight: 1
+      - path: Armature/Waist/Middle/WingL
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4/WingL5
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4/WingL5/WingL6
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10/WingL11
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10/WingL11/WingL12
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16/WingL17
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16/WingL17/WingL18
+        weight: 1
+      - path: Armature/Waist/Middle/WingR
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4/WingR5
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4/WingR5/WingR6
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10/WingR11
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10/WingR11/WingR12
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16/WingR17
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16/WingR17/WingR18
+        weight: 1
+      - path: Armature/Waist/Tail
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Chompie_Death
+      takeName: ArmatureAction
+      firstFrame: 530
+      lastFrame: 600
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Belly
+        weight: 1
+      - path: Armature/ThighL
+        weight: 1
+      - path: Armature/ThighL/ShinL
+        weight: 1
+      - path: Armature/ThighL/ShinL/FootL
+        weight: 1
+      - path: Armature/ThighR
+        weight: 1
+      - path: Armature/ThighR/ShinR
+        weight: 1
+      - path: Armature/ThighR/ShinR/FootR
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Middle
+        weight: 1
+      - path: Armature/Waist/Middle/Chest
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Jaw/Jaw2
+        weight: 1
+      - path: Armature/Waist/Middle/Chest/Neck/Head/Upper_Mouth
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL1
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL2
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL3
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderL/ArmL/HandL/FingerL4
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR1
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR2
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR3
+        weight: 1
+      - path: Armature/Waist/Middle/ShoulderR/ArmR/HandR/FingerR4
+        weight: 1
+      - path: Armature/Waist/Middle/WingL
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4/WingL5
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL1/WingL2/WingL3/WingL4/WingL5/WingL6
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10/WingL11
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL7/WingL8/WingL9/WingL10/WingL11/WingL12
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16/WingL17
+        weight: 1
+      - path: Armature/Waist/Middle/WingL/WingL13/WingL14/WingL15/WingL16/WingL17/WingL18
+        weight: 1
+      - path: Armature/Waist/Middle/WingR
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4/WingR5
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR1/WingR2/WingR3/WingR4/WingR5/WingR6
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10/WingR11
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR7/WingR8/WingR9/WingR10/WingR11/WingR12
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16/WingR17
+        weight: 1
+      - path: Armature/Waist/Middle/WingR/WingR13/WingR14/WingR15/WingR16/WingR17/WingR18
+        weight: 1
+      - path: Armature/Waist/Tail
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature/Waist/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .150000006
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
